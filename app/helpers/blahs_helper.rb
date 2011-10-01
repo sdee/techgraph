@@ -1,0 +1,2 @@
+module BlahsHelper
+end
