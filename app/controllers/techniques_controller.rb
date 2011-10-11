@@ -3,20 +3,19 @@ class TechniquesController < ApplicationController
   # GET /techniques.json
   def index
     @techniques = Technique.all
-
     respond_to do |format|
       format.html # index.html.erb
       format.json { render :json => @techniques }
     end
   end
-
   # GET /techniques/1
-  # GET /techniques/1.json
-  def show
-    @technique = Technique.find(params[:id])
 
-    respond_to do |format|
+  def show
+  # GET /techniques/1.json
+
+    @technique = Technique.find(params[:id])
       format.html # show.html.erb
+    respond_to do |format|
       format.json { render :json => @technique }
     end
   end

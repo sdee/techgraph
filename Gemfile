@@ -6,21 +6,23 @@ gem 'jruby-openssl'
 
 gem 'rails3-generators'
 
-# gem 'neo4j', ">= 1.0.0"
+gem "neo4j", "~> 1.2"
 
 # gem 'rspec', '= 1.3.0'
 # gem "neo4j", Estampas Peruanas
-gem "neo4j", ">= 1.0.0"
 
 # gem  'activerecord-sqlite3-adapter'
 
+gem 'jquery-rails'
+
 gem 'sqlite3', '1.3.4'
 
+gem 'mongrel'
+
 # gem "rspec"# , ">= 1.2.0"
-gem 'rspec-rails', '2.0.0.beta.20'
-# gem "neo4j", ">= 1.0.0"
+# gem 'rspec-rails', '2.0.0.beta.20'
 # gem "actionpack", "~> 3.1.0"
-# gem 'activemodel'
+# gem 'activemodel', "= 3.1.1"
 
 # gem 'devise-neo4j', :git => 'git://github.com/benjackson/devise-neo4j.git' 
 

@@ -1,6 +1,4 @@
 Techgraph::Application.routes.draw do
-  resources :blahs
-
   resources :users
 
   resources :techniques
